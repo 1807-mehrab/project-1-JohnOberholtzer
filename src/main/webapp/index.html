@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>RBSYS</title>
+		<meta charset="utf-8"/>
+		<link type="text/css" rel="stylesheet" href="css/Style.css">
+	</head>
+	
+	<header>
+		<h1>RBSYS</h1>
+		<h3><em>Your Employee Reimbursement System</em></h3>
+	</header>
+	
+	<body>
+		
+		<h3>Log in to RBSYS via AJAX:</h3>
+		<form id = "loginform" method = "post">
+			<label>Username:</label>
+			<input type="Text" name ="username">
+			<label id = usernamevalid></label>
+			<br>
+			<label>Password</label>
+			<input type="Password" name = "password">
+			<br>
+			<button id="loginbutton" type = "button" value ="login" onclick ="login();">Login</button>
+		</form>
+		<div><p id="container"></p></div>
+		<h2>Having trouble logging in?</h2>
+		<br>
+		<h2>Lorem Ipsum</h2>
+		
+		
+	</body>
+	
+	<footer>
+		<p>System by John Oberholtzer</p>
+	</footer>
+	
+	<script src="GenericAJAX.js"></script>
+</html>
